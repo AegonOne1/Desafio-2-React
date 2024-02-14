@@ -1,7 +1,6 @@
 const SocialButton = (props) => {
     return (
         <div>
-            <h1>Crea una Cuenta</h1>
             {
                 props.buttons.map((socialButtons) =>
                     <a href={socialButtons.url}>
@@ -9,7 +8,7 @@ const SocialButton = (props) => {
                     </a>
                 )
             }
-
+            <h3>O usa tu email para registrarte</h3>
         </div>
     )
 }
