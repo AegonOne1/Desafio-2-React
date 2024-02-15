@@ -1,4 +1,4 @@
-import SocialButton from "./socialButton";
+import SocialButton from "./SocialButtons";
 
 const Record = () =>{
     const buttonsData = [

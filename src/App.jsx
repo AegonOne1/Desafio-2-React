@@ -1,6 +1,6 @@
 import './App.css'
-import Formulary from './componenets/formulario'
-import Record from './componenets/registro'
+import Record from './componenets/Registro'
+import Formulary from './componenets/Formulario'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
