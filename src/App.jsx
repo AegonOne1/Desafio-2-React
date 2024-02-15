@@ -1,6 +1,7 @@
-import { Form } from 'react-bootstrap'
 import './App.css'
+import Formulary from './componenets/formulario'
 import Record from './componenets/registro'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
 
@@ -10,7 +11,8 @@ function App() {
     <>
     <Record />
     <div>
-      <Form />
+      <Formulary 
+        Registrarse= "Registrarse"/>
     </div>
     </>
   )
