@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formBody{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.socialButtons{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo3{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+.orden{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.buttons{
+    display: inline-block;
+}
+
+.links{
+    margin: 0 10px;
+}
+
+.size-imgs{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+.formulario{
+    text-align: center;
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.inputsClass{
+   display: flex;
+   flex-direction: column;
+   margin: 10px;
+   width: 300px;
+   height: 40px;
+   border-radius: 4px;
+   padding-left: 7px;
+}
+
+.buttonClass{
+    display: flex;
+    margin: 10px;
+    width: 300px;
+}
+
+.centradoAlerta{
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+}

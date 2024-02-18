@@ -20,13 +20,13 @@ const Record = () =>{
     ]
    
     return (
-        <>
+        <div className="socialButtons">
         <header>
-            <h1>Crear una Cuenta</h1>
+            <h1 className="titulo">Crear una Cuenta</h1>
         </header>
         <SocialButton buttons={buttonsData} />
         
-        </>
+        </div>
     )
 }
 

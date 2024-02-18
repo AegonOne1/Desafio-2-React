@@ -1,5 +1,4 @@
 import './App.css';
-import React, { useState } from 'react';
 import Record from './componenets/Registro';
 import Formulary from './componenets/Formulario';
 import ConfirmarFormulario from './componenets/Alert';
@@ -10,15 +9,13 @@ function App() {
  
 
   return (
-    <>
+    <div className='formBody'>
     <Record />
-    <div>
-      <Formulary
-        Registrarse="Registrarse"
-      />
-      <ConfirmarFormulario  />
+      
+        <Formulary Registrarse="Registrarse"/>
+        <ConfirmarFormulario  />
+      
     </div>
-  </>
   )
 }
 
